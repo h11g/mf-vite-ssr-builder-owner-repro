@@ -18,3 +18,5 @@ Error: [vite]: Rolldown failed to resolve import "virtual:mf-localSharedImportMa
 ```
 
 The same project builds with `@module-federation/vite` 1.23.5.
+
+Fix: https://github.com/module-federation/vite/pull/1518
