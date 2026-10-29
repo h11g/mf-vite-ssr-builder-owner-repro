@@ -1,0 +1,14 @@
+{
+  "name": "mf-vite-ssr-builder-owner-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "build:shared-config": "SHARED_CONFIG_BUILD=1 vite build",
+    "build:ssr-entry-per-environment": "SSR_ENTRY_PER_ENVIRONMENT=1 vite build"
+  },
+  "devDependencies": {
+    "@module-federation/vite": "1.23.6",
+    "vite": "8.2.0"
+  }
+}
